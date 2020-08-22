@@ -19,6 +19,14 @@ export const rootResolvers = {
         created_by: req.user.id,
       }, req.jql)
     },
+    upsertProductShopInventoryLink: {
+      method: "post",
+      route: "/upsertProductShopInventoryLink",
+      resolver: (req) => ProductShopInventoryLink.upsertRecord(req, {
+        ...req.params,
+        ...req.jql?.__args,
+      }, req.jql)
+    }
   },
   mutation: {},
   subscription: {},

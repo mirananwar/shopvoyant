@@ -48,13 +48,13 @@ Important Requests:
 }
 ```
 
-**Claim Product Availability at Shop**
+**Claim Product Availability at Shop (Upsert)**
 
 `POST https://us-central1-shopvoyant-483f6.cloudfunctions.net/api/jql`
 
 ```
 {
-	"action": "addProductShopInventoryLink",
+	"action": "upsertProductShopInventoryLink",
 	"query": {
 		"id": null,
 		"__args": {
