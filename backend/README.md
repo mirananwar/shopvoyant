@@ -12,15 +12,15 @@ Important Requests:
 	"query": {
 		"id": null,
 		"name": null,
-		"image": null
+		"image": null,
 		"__args": {
 			"name": "123123123",
 			"image": null,
-			"address_line_1": "123 Fake Street"
-			"address_line_2": "Apt 123"
-			"address_city": "New York"
-			"address_state": "New York"
-			"address_postal_code": "10003"
+			"address_line_1": "123 Fake Street",
+			"address_line_2": "Apt 123",
+			"address_city": "New York",
+			"address_state": "New York",
+			"address_postal_code": "10003",
 			"address_country": "USA"
 		}
 	}
