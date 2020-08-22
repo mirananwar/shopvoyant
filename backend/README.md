@@ -127,7 +127,7 @@ Important Requests:
 }
 ```
 
-**Show shops where product is available in zip code 10003**
+**Show shops where product is available in zip code 10003, showing the lowest price first**
 
 `POST https://us-central1-shopvoyant-483f6.cloudfunctions.net/api/jql`
 
@@ -150,7 +150,9 @@ Important Requests:
 				"address_country": null
 			},
 			"__args": {
-				"shop_zip": "10003"
+				"shop_zip": "10003",
+				"sortBy": ["price"],
+				"sortDesc": [false]
 			}
 		},
 		"__args": {

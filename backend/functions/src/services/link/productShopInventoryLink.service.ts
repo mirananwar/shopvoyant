@@ -28,6 +28,8 @@ export class ProductShopInventoryLink extends Service {
     },
   };
 
+  static sortFields = ["price", "quantity"];
+
   static isFilterRequired = true;
 
   static accessControl = {
