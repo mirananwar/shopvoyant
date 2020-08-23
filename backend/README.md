@@ -140,14 +140,19 @@ Important Requests:
 		"available_in": {
 			"data": {
 				"id": null,
-				"name": null,
-				"image": null,
-				"address_line_1": null,
-				"address_line_2": null,
-				"address_city": null,
-				"address_state": null,
-				"address_postal_code": null,
-				"address_country": null
+				"quantity": null,
+				"price": null,
+				"shop": {
+					"id": null,
+					"name": null,
+					"image": null,
+					"address_line_1": null,
+					"address_line_2": null,
+					"address_city": null,
+					"address_state": null,
+					"address_postal_code": null,
+					"address_country": null
+				}
 			},
 			"__args": {
 				"shop_zip": "10003",

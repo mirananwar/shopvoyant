@@ -30,11 +30,11 @@ export default abstract class Service {
   static permissionsLink?: any;
 
   static accessControl?: {
-    get: Function,
-    getMultiple: Function,
-    add: Function,
-    update: Function,
-    delete: Function,
+    get?: Function,
+    getMultiple?: Function,
+    add?: Function,
+    update?: Function,
+    delete?: Function,
   };
 
   static getTypeDef() {
