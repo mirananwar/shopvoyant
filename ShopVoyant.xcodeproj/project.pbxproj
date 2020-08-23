@@ -13,7 +13,6 @@
 		A36FD6B124F0486000A88210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FD6B024F0486000A88210 /* SceneDelegate.swift */; };
 		A36FD6B824F0486100A88210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36FD6B724F0486100A88210 /* Assets.xcassets */; };
 		A36FD6BB24F0486100A88210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36FD6B924F0486100A88210 /* LaunchScreen.storyboard */; };
-		A36FD6C324F0489100A88210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A36FD6C224F0489100A88210 /* GoogleService-Info.plist */; };
 		A3729ABE24F14CAE00B0076C /* CreateShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3729ABD24F14CAE00B0076C /* CreateShopViewController.swift */; };
 		A3869AC424F04FD400F9B196 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3869AC324F04FD400F9B196 /* WelcomeViewController.swift */; };
 		A3869AC624F04FE300F9B196 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3869AC524F04FE300F9B196 /* RegisterViewController.swift */; };
@@ -35,7 +34,6 @@
 		A36FD6B724F0486100A88210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36FD6BA24F0486100A88210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A36FD6BC24F0486100A88210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A36FD6C224F0489100A88210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A3729ABD24F14CAE00B0076C /* CreateShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateShopViewController.swift; sourceTree = "<group>"; };
 		A3869AC324F04FD400F9B196 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A3869AC524F04FE300F9B196 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				A36FD6B724F0486100A88210 /* Assets.xcassets */,
 				A36FD6B924F0486100A88210 /* LaunchScreen.storyboard */,
 				A36FD6BC24F0486100A88210 /* Info.plist */,
-				A36FD6C224F0489100A88210 /* GoogleService-Info.plist */,
 			);
 			path = ShopVoyant;
 			sourceTree = "<group>";
@@ -209,7 +206,6 @@
 			files = (
 				A36FD6BB24F0486100A88210 /* LaunchScreen.storyboard in Resources */,
 				A3869ACA24F0501500F9B196 /* Main.storyboard in Resources */,
-				A36FD6C324F0489100A88210 /* GoogleService-Info.plist in Resources */,
 				A36FD6B824F0486100A88210 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
