@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "jql-boilerplate",
+    "staging": "shopvoyant-483f6"
+  }
+}
