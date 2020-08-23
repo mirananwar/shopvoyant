@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31E069624F2A3B1008A7E36 /* SignOutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31E069524F2A3B0008A7E36 /* SignOutController.swift */; };
+		A31E069924F2A96F008A7E36 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A31E069824F2A96F008A7E36 /* IQKeyboardManagerSwift */; };
 		A36FD6AF24F0486000A88210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FD6AE24F0486000A88210 /* AppDelegate.swift */; };
 		A36FD6B124F0486000A88210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FD6B024F0486000A88210 /* SceneDelegate.swift */; };
-		A36FD6B324F0486000A88210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FD6B224F0486000A88210 /* ViewController.swift */; };
-		A36FD6B624F0486000A88210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36FD6B424F0486000A88210 /* Main.storyboard */; };
 		A36FD6B824F0486100A88210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36FD6B724F0486100A88210 /* Assets.xcassets */; };
 		A36FD6BB24F0486100A88210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36FD6B924F0486100A88210 /* LaunchScreen.storyboard */; };
+		A36FD6C324F0489100A88210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A36FD6C224F0489100A88210 /* GoogleService-Info.plist */; };
+		A3729ABE24F14CAE00B0076C /* CreateShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3729ABD24F14CAE00B0076C /* CreateShopViewController.swift */; };
+		A3869AC424F04FD400F9B196 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3869AC324F04FD400F9B196 /* WelcomeViewController.swift */; };
+		A3869AC624F04FE300F9B196 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3869AC524F04FE300F9B196 /* RegisterViewController.swift */; };
+		A3869ACA24F0501500F9B196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3869AC924F0501500F9B196 /* Main.storyboard */; };
+		A3AFD24D24F1A0E800D2E3A6 /* CreateProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFD24C24F1A0E700D2E3A6 /* CreateProductViewController.swift */; };
+		A3AFD24F24F1A8CB00D2E3A6 /* SearchProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFD24E24F1A8CB00D2E3A6 /* SearchProductViewController.swift */; };
+		A3C1254C24F25E2800C0D0A0 /* FindShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1254B24F25E2800C0D0A0 /* FindShop.swift */; };
+		A3C1254E24F28A1D00C0D0A0 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1254D24F28A1D00C0D0A0 /* OptionsViewController.swift */; };
+		D732C12FF636A7191A5AA997 /* Pods_ShopVoyant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9243C2940DA2BF46E10361FF /* Pods_ShopVoyant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C8B62544216970C7DC67D0F /* Pods-ShopVoyant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopVoyant.release.xcconfig"; path = "Target Support Files/Pods-ShopVoyant/Pods-ShopVoyant.release.xcconfig"; sourceTree = "<group>"; };
+		9243C2940DA2BF46E10361FF /* Pods_ShopVoyant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopVoyant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31E069524F2A3B0008A7E36 /* SignOutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutController.swift; sourceTree = "<group>"; };
 		A36FD6AB24F0486000A88210 /* ShopVoyant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopVoyant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36FD6AE24F0486000A88210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36FD6B024F0486000A88210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A36FD6B224F0486000A88210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A36FD6B524F0486000A88210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A36FD6B724F0486100A88210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36FD6BA24F0486100A88210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A36FD6BC24F0486100A88210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36FD6C224F0489100A88210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3729ABD24F14CAE00B0076C /* CreateShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateShopViewController.swift; sourceTree = "<group>"; };
+		A3869AC324F04FD400F9B196 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A3869AC524F04FE300F9B196 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A3869AC924F0501500F9B196 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A3AFD24C24F1A0E700D2E3A6 /* CreateProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductViewController.swift; sourceTree = "<group>"; };
+		A3AFD24E24F1A8CB00D2E3A6 /* SearchProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProductViewController.swift; sourceTree = "<group>"; };
+		A3C1254B24F25E2800C0D0A0 /* FindShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindShop.swift; sourceTree = "<group>"; };
+		A3C1254D24F28A1D00C0D0A0 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		D02125EC7232C3414DBDCBA5 /* Pods-ShopVoyant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopVoyant.debug.xcconfig"; path = "Target Support Files/Pods-ShopVoyant/Pods-ShopVoyant.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D732C12FF636A7191A5AA997 /* Pods_ShopVoyant.framework in Frameworks */,
+				A31E069924F2A96F008A7E36 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F0B85E567B25F2E56165AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9243C2940DA2BF46E10361FF /* Pods_ShopVoyant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		780F0C2968FF51788EF21B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D02125EC7232C3414DBDCBA5 /* Pods-ShopVoyant.debug.xcconfig */,
+				1C8B62544216970C7DC67D0F /* Pods-ShopVoyant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A36FD6A224F0486000A88210 = {
 			isa = PBXGroup;
 			children = (
 				A36FD6AD24F0486000A88210 /* ShopVoyant */,
 				A36FD6AC24F0486000A88210 /* Products */,
+				780F0C2968FF51788EF21B59 /* Pods */,
+				6F0B85E567B25F2E56165AC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,47 @@
 		A36FD6AD24F0486000A88210 /* ShopVoyant */ = {
 			isa = PBXGroup;
 			children = (
+				A3869AC824F04FEC00F9B196 /* View */,
+				A3869AC724F04FE800F9B196 /* Model */,
+				A3869AC224F04FBF00F9B196 /* Controller */,
 				A36FD6AE24F0486000A88210 /* AppDelegate.swift */,
 				A36FD6B024F0486000A88210 /* SceneDelegate.swift */,
-				A36FD6B224F0486000A88210 /* ViewController.swift */,
-				A36FD6B424F0486000A88210 /* Main.storyboard */,
 				A36FD6B724F0486100A88210 /* Assets.xcassets */,
 				A36FD6B924F0486100A88210 /* LaunchScreen.storyboard */,
 				A36FD6BC24F0486100A88210 /* Info.plist */,
+				A36FD6C224F0489100A88210 /* GoogleService-Info.plist */,
 			);
 			path = ShopVoyant;
+			sourceTree = "<group>";
+		};
+		A3869AC224F04FBF00F9B196 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3869AC324F04FD400F9B196 /* WelcomeViewController.swift */,
+				A3869AC524F04FE300F9B196 /* RegisterViewController.swift */,
+				A3729ABD24F14CAE00B0076C /* CreateShopViewController.swift */,
+				A3AFD24C24F1A0E700D2E3A6 /* CreateProductViewController.swift */,
+				A3AFD24E24F1A8CB00D2E3A6 /* SearchProductViewController.swift */,
+				A3C1254B24F25E2800C0D0A0 /* FindShop.swift */,
+				A3C1254D24F28A1D00C0D0A0 /* OptionsViewController.swift */,
+				A31E069524F2A3B0008A7E36 /* SignOutController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3869AC724F04FE800F9B196 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3869AC824F04FEC00F9B196 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3869AC924F0501500F9B196 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +148,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A36FD6BF24F0486100A88210 /* Build configuration list for PBXNativeTarget "ShopVoyant" */;
 			buildPhases = (
+				ABA10EBC5725A99875BF72A2 /* [CP] Check Pods Manifest.lock */,
 				A36FD6A724F0486000A88210 /* Sources */,
 				A36FD6A824F0486000A88210 /* Frameworks */,
 				A36FD6A924F0486000A88210 /* Resources */,
+				01CDCF166D6D4CB43FFB4B45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ShopVoyant;
+			packageProductDependencies = (
+				A31E069824F2A96F008A7E36 /* IQKeyboardManagerSwift */,
+			);
 			productName = ShopVoyant;
 			productReference = A36FD6AB24F0486000A88210 /* ShopVoyant.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = A36FD6A224F0486000A88210;
+			packageReferences = (
+				A31E069724F2A96F008A7E36 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = A36FD6AC24F0486000A88210 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,35 +208,77 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36FD6BB24F0486100A88210 /* LaunchScreen.storyboard in Resources */,
+				A3869ACA24F0501500F9B196 /* Main.storyboard in Resources */,
+				A36FD6C324F0489100A88210 /* GoogleService-Info.plist in Resources */,
 				A36FD6B824F0486100A88210 /* Assets.xcassets in Resources */,
-				A36FD6B624F0486000A88210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01CDCF166D6D4CB43FFB4B45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopVoyant/Pods-ShopVoyant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopVoyant/Pods-ShopVoyant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopVoyant/Pods-ShopVoyant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA10EBC5725A99875BF72A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopVoyant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A36FD6A724F0486000A88210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36FD6B324F0486000A88210 /* ViewController.swift in Sources */,
+				A3AFD24D24F1A0E800D2E3A6 /* CreateProductViewController.swift in Sources */,
+				A3869AC624F04FE300F9B196 /* RegisterViewController.swift in Sources */,
+				A3869AC424F04FD400F9B196 /* WelcomeViewController.swift in Sources */,
+				A3C1254C24F25E2800C0D0A0 /* FindShop.swift in Sources */,
+				A3729ABE24F14CAE00B0076C /* CreateShopViewController.swift in Sources */,
+				A3AFD24F24F1A8CB00D2E3A6 /* SearchProductViewController.swift in Sources */,
 				A36FD6AF24F0486000A88210 /* AppDelegate.swift in Sources */,
 				A36FD6B124F0486000A88210 /* SceneDelegate.swift in Sources */,
+				A3C1254E24F28A1D00C0D0A0 /* OptionsViewController.swift in Sources */,
+				A31E069624F2A3B1008A7E36 /* SignOutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A36FD6B424F0486000A88210 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A36FD6B524F0486000A88210 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A36FD6B924F0486100A88210 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +406,7 @@
 		};
 		A36FD6C024F0486100A88210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02125EC7232C3414DBDCBA5 /* Pods-ShopVoyant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +416,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mirana.ShopVoyant;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirana.ShopVoyantApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +425,7 @@
 		};
 		A36FD6C124F0486100A88210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8B62544216970C7DC67D0F /* Pods-ShopVoyant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +435,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mirana.ShopVoyant;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirana.ShopVoyantApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A31E069724F2A96F008A7E36 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A31E069824F2A96F008A7E36 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A31E069724F2A96F008A7E36 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A36FD6A324F0486000A88210 /* Project object */;
 }
